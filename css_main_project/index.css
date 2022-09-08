@@ -1,0 +1,355 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+#header-section{
+    display: flex;
+}
+#left-menu{
+    display: flex;
+    align-items: center;
+   
+}
+#right-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 28px;
+    height: 70px;
+
+    background-color: white;
+    box-sizing: border-box;
+    align-items: center;
+    width: 100%;
+    height: 77px;
+    position: fixed;
+   
+   
+}
+#top-bar-logo{
+    width:40px;
+    height: 40px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+.menu-items{
+    font-family: 'Poppins', sans-serif;
+color: black;
+font-weight: 600;
+font-size: 14px;
+cursor: pointer;
+margin: 10px;
+
+}
+#menu-item1{
+    position: relative;
+    top: 10px;
+    font-family: 'Poppins', sans-serif;
+    border-top: 2px solid rgb(170, 210, 54);
+    background-color: white;
+    box-shadow: 0 2px 5px #ccc;
+    border: none;
+}
+#menu-item2{
+    position: relative;
+    top: 10px;
+    font-family: 'Poppins', sans-serif;
+    border-top: 2px solid rgb(170, 210, 54);
+    background-color: white;
+    box-shadow: 0 2px 5px #ccc;
+    border: none;
+}
+#button{
+    size: 12px;
+font-weight: 600;
+Color: white;
+background-color: rgb(170, 210, 54);
+Padding: 9px 34px;
+border-radius: 4px;
+border:none;
+}
+
+
+#landing-section {
+    background-image: url('https://edyoda.s3.ap-south-1.amazonaws.com/public/landing-background.png');
+    width: 100%;
+    height: 100vh;
+     min-width: 800px;
+     background-position: left;
+     background-size: cover;
+
+    background-repeat: no-repeat;
+    
+}
+#landing-section-h1{
+    text-align: center;
+    width: 100%;
+    max-width: 1100px;
+    font-size: 45px;
+    font-weight: 600;
+    letter-spacing: 8.8px;
+    line-height: 1.2;
+    margin: 0;
+    display: block;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#landing-section-p{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+font-size: 17px;
+letter-spacing: 0.5px;
+font-weight: 400;
+Color: #8b8b99;
+margin-top: 50px;
+box-sizing: border-box;
+padding: 16px;
+}
+#landing-section-wrapper{
+  
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#steps-section{
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    text-align: center;
+    height: 100%;
+    background-position: left;
+    background-size: cover;
+    width: 100%;
+    box-sizing: border-box;
+    
+
+    
+}
+
+#step-1{
+    Background-color: #5acda6;
+    height: 100vh;
+
+}
+
+#step-2{
+    Background-color: #91ac41;
+    height: 100vh;
+}
+#step-3{
+    Background-color: #e4b476;
+    height: 100vh;
+}
+#step-4{
+    Background-color: #f69dad;
+    height: 100vh;
+}
+
+.step-label{
+    font-family: 'Poppins', sans-serif;
+font-weight: 600;
+size: 24px;
+}
+.fa-cut{
+    font-size: 96px;
+}
+.fa-paint-brush{
+    font-size: 96px;
+}
+.fa-shopping-bag{
+    font-size: 96px;
+}
+.fa-smile{
+    font-size: 96px;
+    
+}
+.fa-cut:hover{
+    transform: scale(1.2);
+    transition-duration: .3s;
+ 
+}
+.fa-paint-brush:hover{
+    transform: scale(1.2);
+    transition-duration: .3s;
+}
+.fa-shopping-bag:hover{
+    transform: scale(1.2);
+    transition-duration: .3s;
+}
+.fa-smile:hover{
+    transform: scale(1.2);
+    transition-duration: .3s;
+}
+.store-section-text>:first-child{
+    
+    font-style: italic;
+    text-align: center;
+    color: #91ac41;
+    font-size: 24px;
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    margin-top: 35px;
+}
+.store-section-text>h1{
+    display: block;
+    font-family: 'Poppins', sans-serif;
+     Size: 44px;
+font-weight: 600;
+font-style: italic;
+text-align: center;
+   
+}
+#store-section{
+    background-color: #f7eee2;
+   width: 100%;
+   height: 100vh;
+}
+#section3-desc{
+    font-family: 'Poppins', sans-serif;
+Size: 16px;
+font-weight: 500;
+Color: #8b8b99;
+letter-spacing: 0.5px;
+text-align: center;
+}
+#sub-section3{
+    display: flex;
+    flex-direction: row;
+    
+    text-align: center;
+    padding: 24px;
+
+}
+.fa-camera{
+font-size: 60px;
+background-color: #e3b375;
+display: inline-block;
+   border-radius: 50%;
+    padding: 40px;
+    color: white;
+  
+}
+.fa-rocket{
+    font-size: 60px;
+    background-color: #e3b375;
+    display: inline-block;
+   border-radius: 50%;
+    padding: 40px;
+    color: white;
+}
+.fa-twitter{
+    font-size: 60px;
+    background-color: #e3b375;
+    display: inline-block;
+   border-radius: 50%;
+    padding: 40px;
+    color: white;
+}
+.fa-weixin{
+    font-size: 60px;
+    background-color: #e3b375;
+    display: inline-block;
+   border-radius: 50%;
+    padding: 40px;
+    color: white;
+}
+.fa-camera:hover{
+    transform: scale(1.2);
+    transition-duration: .3s;
+}
+.fa-rocket:hover{
+    transform: scale(1.2);
+    transition-duration: .3s;
+}
+.fa-twitter:hover{
+    transform: scale(1.2);
+    transition-duration: .3s;
+}
+.fa-weixin:hover{
+    transform: scale(1.2);
+    transition-duration: .3s;
+}
+.shop-section-text>:first-child{
+    
+    font-style: italic;
+    text-align: center;
+    color: #91ac41;
+    font-size: 24px;
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    margin-top: 35px;
+}
+.shop-section-text>h1{
+    display: block;
+    font-family: 'Poppins', sans-serif;
+     Size: 44px;
+font-weight: 600;
+font-style: italic;
+text-align: center;
+   
+}
+#section4-desc{
+    font-family: 'Poppins', sans-serif;
+Size: 16px;
+font-weight: 500;
+Color: #8b8b99;
+letter-spacing: 0.5px;
+text-align: center;
+}
+#section4-wrapper{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 24px;
+
+}
+.Testimonial-card-image{
+    Border-radius: 50%;
+    Width: 80px;
+}
+#section4-wrapper>div>p{
+    font-family: 'Poppins', sans-serif;
+Size: 14px;
+letter-spacing: 0.5px;
+Font-style: Italic;
+ Color: #8b8b99;
+}
+#section4-wrapper>div>h3{
+    font-family: 'Poppins', sans-serif;
+Size: 16px;
+font-weight: 600;
+}
+#card{
+    background-color: #f5f6fb;
+border-top-left-radius: 45px;
+border-bottom-left-radius: 45px;
+ border-bottom-right-radius: 45px;
+ padding: 24px;
+ margin: 24px;
+}
+
+#card:hover{
+ transition-property:all;
+    transform: scale(1.1);
+    transition-duration: .3s;
+}
+#section-5{
+    background-image: url(https://edyoda.s3.ap-south-1.amazonaws.com/public/strawberry-white.png);
+    background-position: left;
+    background-size: cover;
+}
+#strawberry{
+    background-position:left }
